@@ -1,4 +1,3 @@
-require("dotenv").config();
 const { app, BrowserWindow } = require("electron");
 const { removeHeaders } = require("./utils");
 

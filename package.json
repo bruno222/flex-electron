@@ -21,8 +21,7 @@
     "electron": "^27.1.2",
     "nodemon": "^3.0.1"
   },
-  "dependencies": {
-    "dotenv": "^16.3.1",
+  "dependencies": {    
     "electron-squirrel-startup": "^1.0.0"
   },
   "engines": {
