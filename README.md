@@ -1,11 +1,12 @@
 ## What is it?
 
-This is Twilio Flex wrapped into Electron. 
+A proof-of-concept showcasing Twilio Flex being integrated into [Electron](https://www.electronjs.org/).
 
-## Benefits? 
+## Why? What are the advantages?
 
   1. You are under control and can allow any CRMs to be loaded within Flex.
   2. It is safer as you won't have the risk of having bad actors like a malicious Chrome Extension.
+  3. Chrome can have ad blockers interfering with your Analytics tool you might have.
 
 ## Hot to run it locally:
 
