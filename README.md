@@ -1,6 +1,6 @@
 ## What is it?
 
-A proof-of-concept showcasing Twilio Flex being integrated into [Electron](https://www.electronjs.org/).
+A proof-of-concept showing Twilio Flex being integrated into [Electron](https://www.electronjs.org/).
 
 ## Why? What are the advantages?
 
