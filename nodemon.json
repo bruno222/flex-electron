@@ -1,0 +1,6 @@
+{
+    "verbose": true,
+    "ext": "js,json",
+    "watch": "./",
+    "exec": "electron . --enable-logging"
+  }

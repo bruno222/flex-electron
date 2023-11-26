@@ -4,13 +4,14 @@
   "description": "A simple electron app that wraps the Twilio Flex web app. Main benefit is that you can now iframe any CRM within Flex, including the ones who by default don't allow it.",
   "main": "main.js",
   "scripts": {
-    "start": "electron . --enable-logging"
+    "start": "nodemon"    
   },
   "keywords": [],
   "author": "Bruno Kilian",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^27.1.2"
+    "electron": "^27.1.2",
+    "nodemon": "^3.0.1"
   },
   "dependencies": {
     "dotenv": "^16.3.1"
