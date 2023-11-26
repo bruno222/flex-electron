@@ -1,5 +1,3 @@
-TO DO: Write a better Readme here later...
-
 ## What is it?
 
 This is Twilio Flex wrapped into Electron. 
