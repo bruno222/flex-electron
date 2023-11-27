@@ -6,20 +6,16 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        bin: 'Flex Electron'
+      },
     },
     {
-      name: '@electron-forge/maker-zip',
-      platforms: ['darwin'],
-    },
-    {
-      name: '@electron-forge/maker-deb',
-      config: {},
-    },
-    {
-      name: '@electron-forge/maker-rpm',
-      config: {},
-    },
+      name: '@electron-forge/maker-dmg',
+      config: {
+        bin: 'Flex Electron'
+      }
+    }    
   ],
   plugins: [
     {
@@ -27,4 +23,16 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'delimitertech',
+          name: 'flex-electron'
+        },
+        prerelease: true
+      }
+    }
+  ]
 };
