@@ -4,7 +4,7 @@ A proof-of-concept showing Twilio Flex being integrated into [Electron](https://
 
 ## Why? What are the advantages?
 
-  1. You are under control and can allow any CRMs to be loaded within Flex.
+  1. You are under control and can allow any CRMs to be loaded within Flex, including those that, by default, don't allow it.
   2. It is safer as you won't have the risk of having bad actors like a malicious Chrome Extension.
   3. Chrome can have ad blockers interfering with your Analytics tool you might have.
 
