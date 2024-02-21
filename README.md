@@ -7,7 +7,7 @@ A proof-of-concept showing Twilio Flex being integrated into [Electron](https://
   1. You are under control and can allow any CRMs to be loaded within Flex, including those that, by default, don't allow it.
   2. It is safer as you won't have the risk of having bad actors like a malicious Chrome Extension.
   3. Chrome can have ad blockers interfering with your Analytics tool you might have.
-  4. Your company might have different Chrome Policies per country, making it dificult to operate globally. Flex Electron can be an answer for having an isolated way avoid conflicting with the different local market Chrome Policies.
+  4. Your company might have different Chrome Policies per country, making it dificult to operate globally. Flex Electron offers an isolated approach to avoid conflicts with the various local market Chrome policies.
 
 ## Hot to run it locally:
 
